@@ -1,0 +1,19 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass --watch ./public/scss/main.scss:./public/css/styles.css --style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gael-dev/P3.git"
+  },
+  "author": "Mijatovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gael-dev/P3/issues"
+  },
+  "homepage": "https://github.com/gael-dev/P3#readme"
+}
