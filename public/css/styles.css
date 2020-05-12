@@ -1,3 +1,36 @@
+@-webkit-keyframes wiggle {
+  10% {
+    -webkit-transform: translate(4px);
+  }
+}
+.un:hover {
+  -webkit-animation-name: wiggle;
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes wiggle {
+  10% {
+    -webkit-transform: translate(2px);
+  }
+}
+.deux:hover {
+  -webkit-animation-name: wiggle;
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes up {
+  10% {
+    -webkit-transform: translate(10px 10px);
+  }
+}
+.btn:hover {
+  -webkit-animation-name: up;
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
 #blocpage {
   display: flex;
   flex-direction: column;
@@ -27,10 +60,10 @@ footer {
   display: flex;
   flex-direction: row;
   background-color: #09a07a;
-  margin-top: 10px;
   padding: 20px;
   margin-top: 40px;
   justify-content: space-between;
+  font-size: 50px;
 }
 
 .btn {
@@ -57,6 +90,8 @@ span {
 }
 
 .fas {
+  transition-duration: infinite;
+  transform: translateY(-15px);
   font-size: 10px;
   color: #ffd000;
 }
@@ -70,12 +105,12 @@ span {
 
 .un > a {
   color: #ffd000;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .deux > a {
   color: #ffd000;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 a:link {
@@ -103,6 +138,8 @@ a:link {
   opacity: 1;
   transition-duration: 600ms;
   text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 .menu1:hover > p,
@@ -133,6 +170,10 @@ a:link {
   opacity: 1;
   transition-duration: 600ms;
   text-decoration: none;
+  background: linear-gradient(to bottom right, #b95604, #6f18faaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .menu2:hover > p,
@@ -163,6 +204,10 @@ a:link {
   opacity: 1;
   transition-duration: 600ms;
   text-decoration: none;
+  background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .menu3:hover > p,
@@ -192,6 +237,10 @@ a:link {
   opacity: 1;
   transition-duration: 600ms;
   text-decoration: none;
+  background: linear-gradient(to bottom right, #099105, #b7f8b1af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .menu4:hover > p,
