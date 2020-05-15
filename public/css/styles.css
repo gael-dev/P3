@@ -34,20 +34,26 @@
 #blocpage {
   display: flex;
   flex-direction: column;
-  max-width: 1080px;
   text-align: center;
   margin: auto;
 }
 
+.corps {
+  display: flex;
+  flex-flow: wrap;
+  width: 900px;
+  justify-content: center;
+}
+
 .title {
-  background-color: #09a07a;
+  background-color: #098868;
 }
 
 h1 {
   color: #ffd000;
   margin: 0px;
-  padding: 30px;
-  font-size: 50px;
+  padding: 20px;
+  font-size: 60px;
 }
 
 section {
@@ -59,11 +65,12 @@ section {
 footer {
   display: flex;
   flex-direction: row;
-  background-color: #09a07a;
+  position: sticky;
+  bottom: 10px;
+  background-color: #098868;
   padding: 20px;
   margin-top: 40px;
   justify-content: space-between;
-  font-size: 50px;
 }
 
 .btn {
@@ -90,8 +97,6 @@ span {
 }
 
 .fas {
-  transition-duration: infinite;
-  transform: translateY(-15px);
   font-size: 10px;
   color: #ffd000;
 }
@@ -146,7 +151,7 @@ a:link {
 .menu1:hover i {
   opacity: 0.5;
   transform: scale(1.6);
-  transition: opacity transform ease-in-out 600ms;
+  transition: ease-in-out 600ms;
 }
 
 .menu2 {
@@ -180,7 +185,7 @@ a:link {
 .menu2:hover i {
   opacity: 0.5;
   transform: scale(1.6);
-  transition: opacity transform ease-in-out 600ms;
+  transition: ease-in-out 600ms;
 }
 
 .menu3 {
@@ -214,7 +219,7 @@ a:link {
 .menu3:hover i {
   opacity: 0.5;
   transform: scale(1.6);
-  transition: opacity transform ease-in-out 600ms;
+  transition: ease-in-out 600ms;
 }
 
 .menu4 {
@@ -247,7 +252,98 @@ a:link {
 .menu4:hover i {
   opacity: 0.5;
   transform: scale(1.6);
-  transition: opacity transform ease-in-out 600ms;
+  transition: ease-in-out 600ms;
+}
+
+.menu_note {
+  display: flex;
+  flex-flow: column;
+  width: 600px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #fdc2cb;
+}
+.menu_note .noteM {
+  margin-top: 50px;
+  background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+}
+
+.plats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.plats_final {
+  text-align: justify;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.droite {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.note_bottom {
+  background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 20px;
+}
+
+img {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menu_note2 {
+  display: flex;
+  flex-flow: column;
+  width: 600px;
+  height: 800px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #fdc2cb50;
+}
+.menu_note2 h2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 40px;
+  background: linear-gradient(to bottom right, #b95604, #6f18faaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.menu_note2 .orange {
+  filter: invert(42%) sepia(72%) saturate(5965%) hue-rotate(25deg) brightness(95%) contrast(97%);
+}
+.menu_note2 .violet {
+  filter: invert(20%) sepia(45%) saturate(4080%) hue-rotate(274deg) brightness(93%) contrast(102%);
+}
+.menu_note2 .violet2 {
+  filter: invert(20%) sepia(80%) saturate(7175%) hue-rotate(257deg) brightness(98%) contrast(93%);
 }
 
 /*# sourceMappingURL=styles.css.map */
