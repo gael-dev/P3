@@ -135,6 +135,7 @@ a:link {
   font-size: 1.5rem;
   border-radius: 5px;
   background-color: #fdc2cb;
+  font-family: "Yellowtail";
 }
 
 .menu1 > p,
@@ -261,9 +262,10 @@ a:link {
   width: 600px;
   margin: 30px;
   box-shadow: 0 0 10px 5px #ededed;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 5px;
   background-color: #fdc2cb;
+  font-family: "yellowtail";
 }
 .menu_note .noteM {
   margin-top: 50px;
@@ -306,8 +308,10 @@ a:link {
 
 img {
   width: 30%;
+  height: 30%;
   display: flex;
   flex-direction: row;
+  margin: auto;
 }
 
 h3 {
@@ -344,6 +348,48 @@ h3 {
 }
 .menu_note2 .violet2 {
   filter: invert(20%) sepia(80%) saturate(7175%) hue-rotate(257deg) brightness(98%) contrast(93%);
+}
+
+.plats_final3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu_note3 {
+  display: flex;
+  flex-flow: column;
+  width: 600px;
+  height: 900px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #487df033;
+}
+.menu_note3 h2 {
+  font-size: 40px;
+  margin-top: 70px;
+  background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu_note4 {
+  display: flex;
+  flex-flow: column;
+  width: 600px;
+  height: 900px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.menu_note4 h2 {
+  font-size: 40px;
+  margin-top: 70px;
+  background: linear-gradient(to bottom right, #099105, #b7f8b1af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=styles.css.map */
