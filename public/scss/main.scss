@@ -1,6 +1,6 @@
 @-webkit-keyframes wiggle 
 {
-    10% {-webkit-transform: translate(4px);}
+    10% {-webkit-transform: translateY(10px);}
 }
 .un:hover  {
     -webkit-animation-name: wiggle;
@@ -9,7 +9,7 @@
 }
 @-webkit-keyframes wiggle 
 {
-    10% {-webkit-transform: translate(2px);}
+    10% {-webkit-transform: translateY(10px);}
 }
 .deux:hover  {
     -webkit-animation-name: wiggle;
@@ -17,12 +17,12 @@
     -webkit-animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes up 
+@-webkit-keyframes wave 
 {
     10% {-webkit-transform: translate(10px 10px);}
 }
-.btn:hover {
-    -webkit-animation-name: up;
+.btn {
+    -webkit-animation-name: wave;
     -webkit-animation-duration: 1.2s;
     -webkit-animation-iteration-count: infinite;
 }
@@ -56,6 +56,17 @@ h1 {
     font-size: 60px;;
 }
 
+h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
 section {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +94,12 @@ footer {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;   
+}
+
+
+.next {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 input {
@@ -123,11 +140,18 @@ span {
 
 
 
-
 a:link {
     text-decoration: none;
 }
 
+
+img {
+    width: 28%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
 
 .menu1 {
     display: flex;
@@ -142,7 +166,7 @@ a:link {
     font-size: 1.5rem;
     border-radius: 5px;
     background-color: rgb(253, 194, 203);
-    font-family: 'Yellowtail';
+    font-family: 'Ma Shan Zheng', cursive;
 }
 
 .menu1>p,
@@ -152,7 +176,7 @@ a:link {
     transition-duration: 600ms;
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    
     
 }
 
@@ -173,9 +197,10 @@ a:link {
     margin: 30px;
     box-shadow: 0 0 10px 5px #ededed;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     border-radius: 5px;
     background-color: rgba(236, 205, 236, 0.384);
+    font-family: 'Redressed', cursive;
 }
 
 .menu2>p,
@@ -207,9 +232,14 @@ a:link {
     margin: 30px;
     box-shadow: 0 0 10px 5px #ededed;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     border-radius: 5px;
     background-color: rgba(219, 219, 219, 0.39);
+    font-family: 'Dancing Script', cursive;
+
+    .plat3 {
+        padding-left: 3px;
+    }
 }
 
 .menu3>p,
@@ -244,7 +274,7 @@ a:link {
     text-align: center;
     font-size: 1.5rem;
     border-radius: 5px;
-
+    font-family: 'Kaushan Script', cursive;
 }
 
 .menu4>p,
@@ -275,7 +305,7 @@ a:link {
     font-size: 1.2rem;
     border-radius: 5px;
     background-color: rgb(253, 194, 203);
-    font-family: 'yellowtail';
+    font-family: 'Ma Shan Zheng', cursive;
     .noteM {
         margin-top: 50px;
         background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
@@ -287,19 +317,24 @@ a:link {
 
 }
 
+
+
 .plats {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 60px;
     margin-right: 60px;
-    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
 }
 
 .plats_final {
     text-align: justify;
     margin-left: 60px;
     margin-right: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
 }
 
 .droite {
@@ -320,34 +355,21 @@ a:link {
     margin-right: 20px;
 }
 
-img {
-    width: 30%;
-    height: 30%;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
-
-h3{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 .menu_note2 {
     display: flex;
     flex-flow: column;
     width: 600px;
-    height: 800px;
+    height: 900px;
     margin: 30px;
     box-shadow: 0 0 10px 5px #ededed;
     font-size: 1rem;
     border-radius: 5px;
     background-color: #fdc2cb50;
+    font-family: 'Redressed', cursive;
     h2 {
         margin-top: 60px;  
         margin-bottom: 60px;
-        font-size: 40px;
+        font-size: 30px;
         background: linear-gradient(to bottom right, #b95604, #6f18faaf);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -385,15 +407,23 @@ h3{
     font-size: 1rem;
     border-radius: 5px;
     background-color: #487df033;
-
+    font-family: 'Dancing Script', cursive;
     h2 {
         font-size: 40px;
         margin-top: 70px;
         background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        
+    }
+    h3 {
+        font-weight: lighter;
+        font-style: italic;
     }
 
+    .plats {
+        font-size: 14px;
+    }
 
   }
 
@@ -401,11 +431,12 @@ h3{
     display: flex;
     flex-flow: column;
     width: 600px;
-    height: 900px;
+    height: 1000px;
     margin: 30px;
     box-shadow: 0 0 10px 5px #ededed;
     font-size: 1rem;
     border-radius: 5px;
+    font-family: 'Kaushan Script', cursive;
 
     h2 {
         font-size: 40px;
@@ -414,5 +445,58 @@ h3{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+    h3 {
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .plats {
+        font-family: 'Caveat', cursive;
+        font-size: 19px;
+        
+    }
   }
 
+
+
+  @media screen and ( max-width: 768px) {
+
+    body  {
+        width: 100%;
+        margin: auto;
+    }
+   
+    .menu1, .menu2, .menu3, .menu4 {
+        margin :5px;
+    }
+    
+    .btn {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and ( max-width: 320px) {
+
+    body  {
+        width: 100%;
+        margin: auto;
+    }
+   
+    .menu1, .menu2, .menu3, .menu4 {
+        margin :0px;
+    }
+    
+    .btn {
+        margin-top: 20px;
+    }
+
+    .un>a, .deux>a {
+        font-size: 25px;
+    }
+
+}
+
+
+ 
