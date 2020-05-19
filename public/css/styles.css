@@ -1,40 +1,94 @@
-@keyframes wiggle {
-  0% {
+@-webkit-keyframes wiggle {
+  10% {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(10px);
   }
   100% {
-    transform: translateY(20px);
+    transform: translateY(0px);
   }
 }
 .un:hover {
   -webkit-animation-name: wiggle;
-  -webkit-animation-duration: 1.2s;
+  -webkit-animation-duration: 0.8s;
   -webkit-animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes wiggle {
   10% {
-    -webkit-transform: translateY(10px);
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
 .deux:hover {
   -webkit-animation-name: wiggle;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.dot {
+  -webkit-animation-name: wave;
   -webkit-animation-duration: 1.2s;
   -webkit-animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes wave {
+  0% {
+    transform: translateY(0px);
+  }
   10% {
-    -webkit-transform: translate(10px 10px);
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
-.btn {
+.dot1 {
   -webkit-animation-name: wave;
   -webkit-animation-duration: 1.2s;
   -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 0.4s;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.dot2 {
+  -webkit-animation-name: wave;
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 0.8s;
 }
 
 #blocpage {
