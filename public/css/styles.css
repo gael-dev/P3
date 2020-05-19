@@ -134,11 +134,11 @@ footer {
   display: flex;
   flex-direction: row;
   position: sticky;
-  bottom: 10px;
+  bottom: 0px;
   background-color: #098868;
   padding: 20px;
-  margin-top: 40px;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .btn {
@@ -360,6 +360,9 @@ img {
   -webkit-text-fill-color: transparent;
   font-size: 3rem;
 }
+.menu_note .plats_final {
+  margin-left: 60px;
+}
 
 .plats {
   display: flex;
@@ -373,8 +376,6 @@ img {
 
 .plats_final {
   text-align: justify;
-  margin-left: 60px;
-  margin-right: 60px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
 }
@@ -400,13 +401,16 @@ img {
   display: flex;
   flex-flow: column;
   width: 600px;
-  height: 900px;
+  height: 1000px;
   margin: 30px;
   box-shadow: 0 0 10px 5px #ededed;
   font-size: 1rem;
   border-radius: 5px;
   background-color: #fdc2cb50;
   font-family: "Redressed", cursive;
+}
+.menu_note2 .plats_final {
+  margin-left: 60px;
 }
 .menu_note2 h2 {
   margin-top: 60px;
@@ -436,7 +440,7 @@ img {
   display: flex;
   flex-flow: column;
   width: 600px;
-  height: 900px;
+  height: 1150px;
   margin: 30px;
   box-shadow: 0 0 10px 5px #ededed;
   font-size: 1rem;
@@ -511,11 +515,61 @@ img {
   }
 
   .menu1, .menu2, .menu3, .menu4 {
-    margin: 5px;
+    margin: 15px;
+  }
+
+  p {
+    margin: 13px;
+    text-align: center;
   }
 
   .btn {
     margin-top: 20px;
+  }
+
+  .plats {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu_note4 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+
+  .menu1, .menu2, .menu3, .menu4 {
+    margin: 20px;
+  }
+  .menu1 p, .menu2 p, .menu3 p, .menu4 p {
+    font-size: 28px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+
+  .un > a, .deux > a {
+    font-size: 25px;
+  }
+
+  .plats {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 13px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -525,7 +579,7 @@ img {
   }
 
   .menu1, .menu2, .menu3, .menu4 {
-    margin: 0px;
+    margin-top: 20px;
   }
 
   .btn {
@@ -534,6 +588,25 @@ img {
 
   .un > a, .deux > a {
     font-size: 25px;
+  }
+
+  .plats {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 12px;
+    margin: 8px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .plats_final {
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }
 
