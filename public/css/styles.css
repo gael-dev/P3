@@ -124,6 +124,10 @@ h3 {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+h4 {
+  display: none;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
