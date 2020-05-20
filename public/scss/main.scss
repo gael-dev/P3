@@ -1,3 +1,5 @@
+
+
 @-webkit-keyframes wiggle {
 
     10% {
@@ -115,7 +117,12 @@
     flex-direction: column;
     text-align: center;
     margin: auto;
+    width: 100%;
     
+}
+
+body {
+    margin: 0px;
 }
 
 .corps {
@@ -565,6 +572,7 @@ img {
     font-family: 'Ma Shan Zheng', cursive;
   }  
 
+
   @media screen and ( max-width: 768px) {
 
     body  {
@@ -593,6 +601,9 @@ img {
     }
 }
 
+
+
+  
 @media screen and ( max-width: 425px) {
 
     body  {
@@ -601,7 +612,7 @@ img {
     }
    
     .menu1, .menu2, .menu3, .menu4 {
-        margin :20px;
+        margin-top:20px;
         p{
             font-size: 28px;
         }
@@ -631,43 +642,54 @@ img {
 
 }
 
+
+
 @media screen and ( max-width: 320px) {
 
-    body  {
+    body {
         width: 100%;
-        margin: auto;
-    }
-   
-    .menu1, .menu2, .menu3, .menu4 {
-        margin-top :20px;
-
-    }
+        margin: 0px;
     
-    .btn {
-        margin-top: 20px;
     }
+     .menu1, .menu2, .menu3, .menu4 {
+         margin-top: 20px;
+         margin-left: 0px;
+         margin-right: 0px;
+     }
 
-    .un>a, .deux>a {
-        font-size: 25px;
+    header footer {
+        width: 100%;
     }
-
-    .plats {
-        display: flex; 
-        flex-direction: column;
-    }
-    p {
-        font-size: 12px;
-        margin: 8px;
-    }
-    h3 {
-        font-size: 14px;
-    }
-    .plats_final {
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-   
-}
-
-
+     
+     .btn {
+         margin-top: 20px;
+     }
+ 
+     .un>a, .deux>a {
+         font-size: 25px;
+     }
+ 
+     .plats {
+         display: flex; 
+         flex-direction: column;
+     }
+     p {
+         font-size: 12px;
+         margin: 8px;
+     }
+     h3 {
+         font-size: 14px;
+     }
+     .plats_final {
+         margin-left: 60px;
+         margin-right: 60px;
+     }
+ 
+     .menu_note4 {
+         p {
+             font-size: 1px;
+         }
+     }
+    
+ }
  

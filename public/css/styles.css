@@ -96,6 +96,11 @@
   flex-direction: column;
   text-align: center;
   margin: auto;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
 }
 
 .corps {
@@ -547,7 +552,7 @@ img {
   }
 
   .menu1, .menu2, .menu3, .menu4 {
-    margin: 20px;
+    margin-top: 20px;
   }
   .menu1 p, .menu2 p, .menu3 p, .menu4 p {
     font-size: 28px;
@@ -579,11 +584,17 @@ img {
 @media screen and (max-width: 320px) {
   body {
     width: 100%;
-    margin: auto;
+    margin: 0px;
   }
 
   .menu1, .menu2, .menu3, .menu4 {
     margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  header footer {
+    width: 100%;
   }
 
   .btn {
@@ -611,6 +622,10 @@ img {
   .plats_final {
     margin-left: 60px;
     margin-right: 60px;
+  }
+
+  .menu_note4 p {
+    font-size: 1px;
   }
 }
 
