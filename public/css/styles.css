@@ -548,6 +548,10 @@ img {
   .menu_note4 {
     height: auto;
   }
+
+  .menu_note > .plats_final {
+    margin: auto;
+  }
 }
 @media screen and (max-width: 425px) {
   body {
