@@ -639,9 +639,8 @@ img {
     font-size: 14px;
   }
 
-  .plats_final {
-    margin-left: 60px;
-    margin-right: 60px;
+  .menu_note2 .plats_final {
+    margin-left: 0px;
   }
 
   .menu_note4 p {
