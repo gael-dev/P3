@@ -1,15 +1,120 @@
-@import "./utils/variables";
-@import "./utils/keyframes";
-@import "./utils/mixins";
-// @import "./base/base";
-// @import "./components/components";
-// @import "./pages/index";
-// @import "./pages/menu1";
-// @import "./pages/menu2";
-// @import "./pages/menu3";
-// @import "./pages/menu4";
-// @import "./pages/mentions";
-// @import "./utils/mediaq";
+
+
+@-webkit-keyframes wiggle {
+
+    10% {
+        transform: translateY(0px);
+    }
+   
+    50% {
+        transform: translateY(-10px);
+    }
+
+    70% {
+        transform: translateY(10px);
+    }
+   
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+.un:hover  {
+    -webkit-animation-name: wiggle;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    
+}
+@-webkit-keyframes wiggle 
+{
+    10% {
+        transform: translateY(0px);
+    }
+   
+    50% {
+        transform: translateY(-10px);
+    }
+
+    70% {
+        transform: translateY(10px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+.deux:hover  {
+    -webkit-animation-name: wiggle;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    
+}
+
+@-webkit-keyframes wave 
+{
+    0% {
+        transform: translateY(0px);
+    }
+    10% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.dot {
+    -webkit-animation-name: wave;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-timing-function: ease-in-out;  
+
+
+
+}
+
+@-webkit-keyframes wave 
+{
+    0% {
+        transform: translateY(0px);
+    }
+    10% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.dot1 {
+    -webkit-animation-name: wave;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0.2s;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes wave 
+{
+    0% {
+        transform: translateY(0px);
+    }
+    10% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.dot2 {
+    -webkit-animation-name: wave ;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0.4s;
+    -webkit-transition-timing-function: ease-in-out;
+   
+}
+
+
 
 
 #blocpage {
@@ -34,11 +139,12 @@ body {
 
 
 .title {
-    background-color: $colour-primary;
+    background-color: #098868;
+    
 }
 
 h1 {
-    color: $colour-secondary;
+    color: rgb(255, 208, 0);
     margin: 0px;
     padding: 20px;
     font-size: 60px;;
@@ -68,7 +174,7 @@ footer {
     flex-direction: row;
     position: sticky;
     bottom: 0px;
-    background-color: $colour-primary;
+    background-color: #098868;
     padding: 20px;
     justify-content: space-between;
     margin-top: 30px;
@@ -77,7 +183,7 @@ footer {
 }
 
 .btn {
-    background-color: $colour-primary;
+    background-color: #09a07a;
     font-size: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -96,35 +202,35 @@ input {
     display: flex;
     width: 100%;
     border: none;
-    background-color: $input;
+    background-color: rgba(236, 236, 236, 0.685);
     margin-top: 0px;
 }
 
 span {
     font-size: 30px;
-    color: $colour-secondary;
+    color: rgb(255, 208, 0);
 }
 
 .fas {
     font-size: 10px;
-    color: $colour-secondary;
+    color: rgb(255, 208, 0);
 }
 
 .note {
     font-size: 25px;
-    background: $colour-note;
+    background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 
 .un>a {
-    color: $colour-secondary;
+    color: rgb(255, 208, 0);
     font-size: 35px;
 }
 
 .deux>a {
-    color: $colour-secondary;
+    color: rgb(255, 208, 0);
     font-size: 35px;
 }
 
@@ -151,11 +257,11 @@ img {
     width: 335px;
     height: 485px;
     margin: 30px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 0 10px 5px #ededed;
     text-align: center;
     font-size: 1.5rem;
     border-radius: 5px;
-    background-color: $background-menu1;
+    background-color: rgb(253, 194, 203);
     font-family: 'Ma Shan Zheng', cursive;
 }
 
@@ -165,7 +271,7 @@ img {
     opacity: 1;
     transition-duration: 600ms;
     text-decoration: none;
-    color: $title-menu1;
+    color: black;
     
     
 }
@@ -185,11 +291,11 @@ img {
     width: 335px;
     height: 485px;
     margin: 30px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 0 10px 5px #ededed;
     text-align: center;
     font-size: 1.4rem;
     border-radius: 5px;
-    background-color: $background-menu2;
+    background-color: rgba(236, 205, 236, 0.384);
     font-family: 'Redressed', cursive;
 }
 
@@ -199,7 +305,7 @@ img {
     opacity: 1;
     transition-duration: 600ms;
     text-decoration: none;
-    background: $title-menu2;
+    background: linear-gradient(to bottom right, #b95604, #6f18faaf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -220,11 +326,11 @@ img {
     width: 335px;
     height: 485px;
     margin: 30px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 0 10px 5px #ededed;
     text-align: center;
     font-size: 1.4rem;
     border-radius: 5px;
-    background-color: $background-menu3;
+    background-color: rgba(219, 219, 219, 0.39);
     font-family: 'Dancing Script', cursive;
 
     .plat3 {
@@ -238,7 +344,7 @@ img {
     opacity: 1;
     transition-duration: 600ms;
     text-decoration: none;
-    background: $title-menu3;
+    background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -259,7 +365,7 @@ img {
     width: 335px;
     height: 485px;
     margin: 30px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 0 10px 5px #ededed;
     text-align: center;
     font-size: 1.5rem;
     border-radius: 5px;
@@ -272,7 +378,7 @@ img {
     opacity: 1;
     transition-duration: 600ms;
     text-decoration: none;
-    background: $title-menu4;
+    background: linear-gradient(to bottom right, #099105, #b7f8b1af);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -290,14 +396,14 @@ img {
     flex-flow: column;
     width: 600px;
     margin: 30px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 0 10px 5px #ededed;
     font-size: 1.2rem;
     border-radius: 5px;
-    background-color: $background-menu1;
+    background-color: rgb(253, 194, 203);
     font-family: 'Ma Shan Zheng', cursive;
     .noteM {
         margin-top: 50px;
-        background: $colour-note;
+        background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 3rem;
@@ -339,7 +445,7 @@ img {
 }
 
 .note_bottom {
-    background: $colour-note;
+    background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-right: 20px;
@@ -351,10 +457,10 @@ img {
     width: 600px;
     height: 1000px;
     margin: 30px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 0 10px 5px #ededed;
     font-size: 1rem;
     border-radius: 5px;
-    background-color: $background-menu2;
+    background-color: #fdc2cb50;
     font-family: 'Redressed', cursive;
 
     .plats_final {
@@ -365,7 +471,7 @@ img {
         margin-top: 60px;  
         margin-bottom: 60px;
         font-size: 30px;
-        background: $title-menu2;
+        background: linear-gradient(to bottom right, #b95604, #6f18faaf);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: bold;
@@ -398,15 +504,15 @@ img {
     width: 600px;
     height: 1150px;
     margin: 30px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 0 10px 5px #ededed;
     font-size: 1rem;
     border-radius: 5px;
-    background-color: $background-menu3;
+    background-color: #487df033;
     font-family: 'Dancing Script', cursive;
     h2 {
         font-size: 40px;
         margin-top: 70px;
-        background: $title-menu3;
+        background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         
@@ -428,7 +534,7 @@ img {
     width: 600px;
     height: 1000px;
     margin: 30px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 0 10px 5px #ededed;
     font-size: 1rem;
     border-radius: 5px;
     font-family: 'Kaushan Script', cursive;
@@ -436,7 +542,7 @@ img {
     h2 {
         font-size: 40px;
         margin-top: 70px;
-        background: $title-menu4;
+        background: linear-gradient(to bottom right, #099105, #b7f8b1af);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -461,13 +567,13 @@ img {
     width: 400px;
     height: 550px;
     padding: 20px;
-    margin-top:30px;
+    margin-top:20px;
     margin-right: 20px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 0 10px 5px #ededed;
     text-align: center;
     font-size: 1.5rem;
     border-radius: 5px;
-    background-color: $background-menu3;
+    background-color: rgb(253, 194, 203);
     font-family: 'Ma Shan Zheng', cursive;
   }  
 
@@ -534,5 +640,129 @@ img {
      }
  
  }
+ 
+ 
 
- @import "./utils/mediaq";
+
+
+  @media screen and ( max-width: 768px) {
+
+    body  {
+        width: 100%;
+        margin: auto;
+    }
+   
+    .menu1, .menu2, .menu3, .menu4 {
+        margin :15px;
+        
+    }
+    p  {
+        margin: 13px;
+        text-align: center;
+    }
+    .btn {
+        margin-top: 20px;
+    }
+
+    .plats {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu_note4 {
+        height: auto;
+    }
+}
+
+
+
+  
+@media screen and ( max-width: 425px) {
+
+    body  {
+        width: 100%;
+        margin: auto;
+    }
+   
+    .menu1, .menu2, .menu3, .menu4 {
+        margin-top:20px;
+        p{
+            font-size: 28px;
+        }
+
+    }
+    
+    .btn {
+        margin-top: 20px;
+    }
+
+    .un>a, .deux>a {
+        font-size: 25px;
+    }
+
+    .plats {
+        display: flex; 
+        flex-direction: column;
+    }
+    p {
+        font-size: 13px;
+        margin: 10px;
+        text-align: center;
+    }
+    h3 {
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media screen and ( max-width: 320px) {
+
+    body {
+        width: 100%;
+        margin: 0px;
+    
+    }
+     .menu1, .menu2, .menu3, .menu4 {
+         margin-top: 20px;
+         margin-left: 0px;
+         margin-right: 0px;
+         width: 290px;
+     }
+
+    header footer {
+        width: 100%;
+    }
+     
+     .btn {
+         margin-top: 20px;
+     }
+ 
+     .un>a, .deux>a {
+         font-size: 25px;
+     }
+ 
+     .plats {
+         display: flex; 
+         flex-direction: column;
+     }
+     p {
+         font-size: 12px;
+         margin: 8px;
+     }
+     h3 {
+         font-size: 14px;
+     }
+     .plats_final {
+         margin-left: 60px;
+         margin-right: 60px;
+     }
+ 
+     .menu_note4 {
+         p {
+             font-size: 17px;
+         }
+     }
+    
+ }
+ 

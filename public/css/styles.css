@@ -1,48 +1,24 @@
 @-webkit-keyframes wiggle {
-  10% {
+  0% {
     transform: translateY(0px);
   }
-  50% {
-    transform: translateY(-10px);
-  }
-  70% {
+  60% {
     transform: translateY(10px);
   }
   100% {
     transform: translateY(0px);
   }
 }
-.un:hover {
+.un:hover, .deux:hover {
   -webkit-animation-name: wiggle;
-  -webkit-animation-duration: 0.8s;
-  -webkit-animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes wiggle {
-  10% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  70% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-.deux:hover {
-  -webkit-animation-name: wiggle;
-  -webkit-animation-duration: 0.8s;
-  -webkit-animation-iteration-count: infinite;
+  animation: wiggle 0.4s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes wave {
   0% {
     transform: translateY(0px);
   }
-  10% {
+  60% {
     transform: translateY(-10px);
   }
   100% {
@@ -51,47 +27,19 @@
 }
 .dot {
   -webkit-animation-name: wave;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
+  animation: wave 1.3s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes wave {
-  0% {
-    transform: translateY(0px);
-  }
-  10% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 .dot1 {
   -webkit-animation-name: wave;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
+  animation: wave 1.3s ease-in-out infinite alternate;
   -webkit-animation-delay: 0.2s;
-  -webkit-transition-timing-function: ease-in-out;
 }
 
-@-webkit-keyframes wave {
-  0% {
-    transform: translateY(0px);
-  }
-  10% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 .dot2 {
   -webkit-animation-name: wave;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
+  animation: wave 1.3s ease-in-out infinite alternate;
   -webkit-animation-delay: 0.4s;
-  -webkit-transition-timing-function: ease-in-out;
 }
 
 #blocpage {
@@ -154,7 +102,7 @@ footer {
 }
 
 .btn {
-  background-color: #09a07a;
+  background-color: #098868;
   font-size: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -237,7 +185,7 @@ img {
   opacity: 1;
   transition-duration: 600ms;
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .menu1:hover > p,
@@ -418,7 +366,7 @@ img {
   box-shadow: 0 0 10px 5px #ededed;
   font-size: 1rem;
   border-radius: 5px;
-  background-color: #fdc2cb50;
+  background-color: rgba(236, 205, 236, 0.384);
   font-family: "Redressed", cursive;
 }
 .menu_note2 .plats_final {
@@ -457,7 +405,7 @@ img {
   box-shadow: 0 0 10px 5px #ededed;
   font-size: 1rem;
   border-radius: 5px;
-  background-color: #487df033;
+  background-color: rgba(219, 219, 219, 0.39);
   font-family: "Dancing Script", cursive;
 }
 .menu_note3 h2 {
@@ -510,13 +458,13 @@ img {
   width: 400px;
   height: 550px;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 20px;
   box-shadow: 0 0 10px 5px #ededed;
   text-align: center;
   font-size: 1.5rem;
   border-radius: 5px;
-  background-color: #fdc2cb;
+  background-color: rgba(219, 219, 219, 0.39);
   font-family: "Ma Shan Zheng", cursive;
 }
 
@@ -576,7 +524,10 @@ img {
     margin: auto;
   }
 
-  .menu1, .menu2, .menu3, .menu4 {
+  .menu1,
+.menu2,
+.menu3,
+.menu4 {
     margin: 15px;
   }
 
@@ -604,10 +555,16 @@ img {
     margin: auto;
   }
 
-  .menu1, .menu2, .menu3, .menu4 {
+  .menu1,
+.menu2,
+.menu3,
+.menu4 {
     margin-top: 20px;
   }
-  .menu1 p, .menu2 p, .menu3 p, .menu4 p {
+  .menu1 p,
+.menu2 p,
+.menu3 p,
+.menu4 p {
     font-size: 28px;
   }
 
@@ -615,7 +572,8 @@ img {
     margin-top: 20px;
   }
 
-  .un > a, .deux > a {
+  .un > a,
+.deux > a {
     font-size: 25px;
   }
 
@@ -640,7 +598,10 @@ img {
     margin: 0px;
   }
 
-  .menu1, .menu2, .menu3, .menu4 {
+  .menu1,
+.menu2,
+.menu3,
+.menu4 {
     margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
@@ -655,7 +616,8 @@ img {
     margin-top: 20px;
   }
 
-  .un > a, .deux > a {
+  .un > a,
+.deux > a {
     font-size: 25px;
   }
 

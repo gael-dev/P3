@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass" : "sass --watch ./public/scss/main.scss:./public/css/styles.css --style expanded"
+    "sass" : "sass --watch ./public/scss/main.scss:./public/css/styles.css --style expanded",
+    "prefix": "postcss ./public/css/styles.css --use autoprefixer -d ./public/css/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   },
   "author": "Mijatovic",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/gael-dev/P3/issues"
   },
