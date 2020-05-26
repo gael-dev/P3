@@ -50,17 +50,6 @@
   width: 100%;
 }
 
-body {
-  margin: 0px;
-}
-
-.corps {
-  display: flex;
-  flex-flow: wrap;
-  width: 900px;
-  justify-content: center;
-}
-
 .title {
   background-color: #098868;
 }
@@ -70,6 +59,28 @@ h1 {
   margin: 0px;
   padding: 20px;
   font-size: 60px;
+}
+
+.corps {
+  display: flex;
+  flex-flow: wrap;
+  width: 900px;
+  justify-content: center;
+}
+
+body {
+  margin: 0px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  bottom: 0px;
+  background-color: #098868;
+  padding: 20px;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
 h3 {
@@ -90,38 +101,9 @@ section {
   justify-content: center;
 }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  position: sticky;
-  bottom: 0px;
-  background-color: #098868;
-  padding: 20px;
-  justify-content: space-between;
-  margin-top: 30px;
-}
-
-.btn {
-  background-color: #098868;
-  font-size: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 10px;
-}
-
 .next {
   display: flex;
   flex-wrap: nowrap;
-}
-
-input {
-  display: flex;
-  width: 100%;
-  border: none;
-  background-color: rgba(236, 236, 236, 0.685);
-  margin-top: 0px;
 }
 
 span {
@@ -132,196 +114,6 @@ span {
 .fas {
   font-size: 10px;
   color: #ffd000;
-}
-
-.note {
-  font-size: 25px;
-  background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.un > a {
-  color: #ffd000;
-  font-size: 35px;
-}
-
-.deux > a {
-  color: #ffd000;
-  font-size: 35px;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-img {
-  width: 28%;
-  height: 30%;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-}
-
-.menu1 {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  width: 335px;
-  height: 485px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  text-align: center;
-  font-size: 1.5rem;
-  border-radius: 5px;
-  background-color: #fdc2cb;
-  font-family: "Ma Shan Zheng", cursive;
-}
-
-.menu1 > p,
-.menu1 i {
-  transform: scale(1);
-  opacity: 1;
-  transition-duration: 600ms;
-  text-decoration: none;
-  color: #000000;
-}
-
-.menu1:hover > p,
-.menu1:hover i {
-  opacity: 0.5;
-  transform: scale(1.6);
-  transition: ease-in-out 600ms;
-}
-
-.menu2 {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  width: 335px;
-  height: 485px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  text-align: center;
-  font-size: 1.4rem;
-  border-radius: 5px;
-  background-color: rgba(236, 205, 236, 0.384);
-  font-family: "Redressed", cursive;
-}
-
-.menu2 > p,
-.menu2 i {
-  transform: scale(1);
-  opacity: 1;
-  transition-duration: 600ms;
-  text-decoration: none;
-  background: linear-gradient(to bottom right, #b95604, #6f18faaf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-.menu2:hover > p,
-.menu2:hover i {
-  opacity: 0.5;
-  transform: scale(1.6);
-  transition: ease-in-out 600ms;
-}
-
-.menu3 {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  width: 335px;
-  height: 485px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  text-align: center;
-  font-size: 1.4rem;
-  border-radius: 5px;
-  background-color: rgba(219, 219, 219, 0.39);
-  font-family: "Dancing Script", cursive;
-}
-.menu3 .plat3 {
-  padding-left: 3px;
-}
-
-.menu3 > p,
-.menu3 i {
-  transform: scale(1);
-  opacity: 1;
-  transition-duration: 600ms;
-  text-decoration: none;
-  background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-.menu3:hover > p,
-.menu3:hover i {
-  opacity: 0.5;
-  transform: scale(1.6);
-  transition: ease-in-out 600ms;
-}
-
-.menu4 {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  width: 335px;
-  height: 485px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  text-align: center;
-  font-size: 1.5rem;
-  border-radius: 5px;
-  font-family: "Kaushan Script", cursive;
-}
-
-.menu4 > p,
-.menu4 i {
-  transform: scale(1);
-  opacity: 1;
-  transition-duration: 600ms;
-  text-decoration: none;
-  background: linear-gradient(to bottom right, #099105, #b7f8b1af);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-.menu4:hover > p,
-.menu4:hover i {
-  opacity: 0.5;
-  transform: scale(1.6);
-  transition: ease-in-out 600ms;
-}
-
-.menu_note {
-  display: flex;
-  flex-flow: column;
-  width: 600px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  background-color: #fdc2cb;
-  font-family: "Ma Shan Zheng", cursive;
-}
-.menu_note .noteM {
-  margin-top: 50px;
-  background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 3rem;
-}
-.menu_note .plats_final {
-  margin-left: 60px;
 }
 
 .plats {
@@ -350,6 +142,21 @@ img {
   font-weight: bold;
 }
 
+input {
+  display: flex;
+  width: 100%;
+  border: none;
+  background-color: rgba(236, 236, 236, 0.685);
+  margin-top: 0px;
+}
+
+.note {
+  font-size: 25px;
+  background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .note_bottom {
   background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
   -webkit-background-clip: text;
@@ -357,115 +164,36 @@ img {
   margin-right: 20px;
 }
 
-.menu_note2 {
-  display: flex;
-  flex-flow: column;
-  width: 600px;
-  height: 1000px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  font-size: 1rem;
-  border-radius: 5px;
-  background-color: rgba(236, 205, 236, 0.384);
-  font-family: "Redressed", cursive;
-}
-.menu_note2 .plats_final {
-  margin-left: 60px;
-}
-.menu_note2 h2 {
-  margin-top: 60px;
-  margin-bottom: 60px;
+.btn {
+  background-color: #098868;
   font-size: 30px;
-  background: linear-gradient(to bottom right, #b95604, #6f18faaf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-.menu_note2 .orange {
-  filter: invert(42%) sepia(72%) saturate(5965%) hue-rotate(25deg) brightness(95%) contrast(97%);
-}
-.menu_note2 .violet {
-  filter: invert(20%) sepia(45%) saturate(4080%) hue-rotate(274deg) brightness(93%) contrast(102%);
-}
-.menu_note2 .violet2 {
-  filter: invert(20%) sepia(80%) saturate(7175%) hue-rotate(257deg) brightness(98%) contrast(93%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
 }
 
-.plats_final3 {
+.un > a {
+  color: #ffd000;
+  font-size: 35px;
+}
+
+.deux > a {
+  color: #ffd000;
+  font-size: 35px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+img {
+  width: 28%;
+  height: 30%;
   display: flex;
   flex-direction: row;
-}
-
-.menu_note3 {
-  display: flex;
-  flex-flow: column;
-  width: 600px;
-  height: 1150px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  font-size: 1rem;
-  border-radius: 5px;
-  background-color: rgba(219, 219, 219, 0.39);
-  font-family: "Dancing Script", cursive;
-}
-.menu_note3 h2 {
-  font-size: 40px;
-  margin-top: 70px;
-  background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.menu_note3 h3 {
-  font-weight: lighter;
-  font-style: italic;
-}
-.menu_note3 .plats {
-  font-size: 14px;
-}
-
-.menu_note4 {
-  display: flex;
-  flex-flow: column;
-  width: 600px;
-  height: 1000px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  font-size: 1rem;
-  border-radius: 5px;
-  font-family: "Kaushan Script", cursive;
-}
-.menu_note4 h2 {
-  font-size: 40px;
-  margin-top: 70px;
-  background: linear-gradient(to bottom right, #099105, #b7f8b1af);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.menu_note4 h3 {
-  font-weight: 400;
-  font-style: italic;
-}
-.menu_note4 .plats {
-  font-family: "Caveat", cursive;
-  font-size: 19px;
-}
-
-.mentions {
-  display: block;
-  overflow: auto;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  height: 550px;
-  padding: 20px;
-  margin-top: 30px;
-  margin-right: 20px;
-  box-shadow: 0 0 10px 5px #ededed;
-  text-align: center;
-  font-size: 1.5rem;
-  border-radius: 5px;
-  background-color: rgba(219, 219, 219, 0.39);
-  font-family: "Ma Shan Zheng", cursive;
+  margin: auto;
 }
 
 .mouv {
@@ -516,6 +244,278 @@ img {
   cursor: pointer;
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.menu1 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 485px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: #fdc2cb;
+  font-family: "Ma Shan Zheng", cursive;
+}
+
+.menu1 > p,
+.menu1 i {
+  transform: scale(1);
+  opacity: 1;
+  transition-duration: 600ms;
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu1:hover > p,
+.menu1:hover i {
+  opacity: 0.5;
+  transform: scale(1.6);
+  transition: ease-in-out 600ms;
+}
+
+.menu_note {
+  display: flex;
+  flex-flow: column;
+  width: 600px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: #fdc2cb;
+  font-family: "Ma Shan Zheng", cursive;
+}
+.menu_note .noteM {
+  margin-top: 50px;
+  background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+}
+.menu_note .plats_final {
+  margin-left: 60px;
+}
+
+.menu2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 485px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  text-align: center;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  background-color: rgba(236, 205, 236, 0.384);
+  font-family: "Redressed", cursive;
+}
+
+.menu2 > p,
+.menu2 i {
+  transform: scale(1);
+  opacity: 1;
+  transition-duration: 600ms;
+  text-decoration: none;
+  background: linear-gradient(to bottom right, #b95604, #6f18faaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.menu2:hover > p,
+.menu2:hover i {
+  opacity: 0.5;
+  transform: scale(1.6);
+  transition: ease-in-out 600ms;
+}
+
+.menu_note2 {
+  display: flex;
+  flex-flow: column;
+  width: 600px;
+  height: 1000px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: rgba(236, 205, 236, 0.384);
+  font-family: "Redressed", cursive;
+}
+.menu_note2 .plats_final {
+  margin-left: 60px;
+}
+.menu_note2 h2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 30px;
+  background: linear-gradient(to bottom right, #b95604, #6f18faaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.menu_note2 .orange {
+  filter: invert(42%) sepia(72%) saturate(5965%) hue-rotate(25deg) brightness(95%) contrast(97%);
+}
+.menu_note2 .violet {
+  filter: invert(20%) sepia(45%) saturate(4080%) hue-rotate(274deg) brightness(93%) contrast(102%);
+}
+.menu_note2 .violet2 {
+  filter: invert(20%) sepia(80%) saturate(7175%) hue-rotate(257deg) brightness(98%) contrast(93%);
+}
+
+.plats_final3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu3 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 485px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  text-align: center;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  background-color: rgba(219, 219, 219, 0.39);
+  font-family: "Dancing Script", cursive;
+}
+.menu3 .plat3 {
+  padding-left: 3px;
+}
+
+.menu3 > p,
+.menu3 i {
+  transform: scale(1);
+  opacity: 1;
+  transition-duration: 600ms;
+  text-decoration: none;
+  background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.menu3:hover > p,
+.menu3:hover i {
+  opacity: 0.5;
+  transform: scale(1.6);
+  transition: ease-in-out 600ms;
+}
+
+.menu_note3 {
+  display: flex;
+  flex-flow: column;
+  width: 600px;
+  height: 1150px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: rgba(219, 219, 219, 0.39);
+  font-family: "Dancing Script", cursive;
+}
+.menu_note3 h2 {
+  font-size: 40px;
+  margin-top: 70px;
+  background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu_note3 h3 {
+  font-weight: lighter;
+  font-style: italic;
+}
+.menu_note3 .plats {
+  font-size: 14px;
+}
+
+.menu4 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 485px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  font-family: "Kaushan Script", cursive;
+}
+
+.menu4 > p,
+.menu4 i {
+  transform: scale(1);
+  opacity: 1;
+  transition-duration: 600ms;
+  text-decoration: none;
+  background: linear-gradient(to bottom right, #099105, #b7f8b1af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.menu4:hover > p,
+.menu4:hover i {
+  opacity: 0.5;
+  transform: scale(1.6);
+  transition: ease-in-out 600ms;
+}
+
+.menu_note4 {
+  display: flex;
+  flex-flow: column;
+  width: 600px;
+  height: 1000px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #ededed;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-family: "Kaushan Script", cursive;
+}
+.menu_note4 h2 {
+  font-size: 40px;
+  margin-top: 70px;
+  background: linear-gradient(to bottom right, #099105, #b7f8b1af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu_note4 h3 {
+  font-weight: 400;
+  font-style: italic;
+}
+.menu_note4 .plats {
+  font-family: "Caveat", cursive;
+  font-size: 19px;
+}
+
+.mentions {
+  display: block;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 550px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-right: 20px;
+  box-shadow: 0 0 10px 5px #ededed;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: rgba(219, 219, 219, 0.39);
+  font-family: "Ma Shan Zheng", cursive;
 }
 
 @media screen and (max-width: 768px) {
