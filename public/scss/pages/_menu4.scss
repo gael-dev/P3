@@ -1,48 +1,9 @@
-// menu 4 index
-
-.menu4 {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 335px;
-    height: 485px;
-    margin: 30px;
-    box-shadow: $box-shadow;
-    text-align: center;
-    font-size: 1.5rem;
-    border-radius: 5px;
-    font-family: 'Kaushan Script', cursive;
-}
-.menu4>p,
-.menu4 i {
-    transform: scale(1);
-    opacity: 1;
-    transition-duration: 600ms;
-    text-decoration: none;
-    background: $title-menu4;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-}
-.menu4:hover>p,
-.menu4:hover i {
-    opacity: 0.5;
-    transform: scale(1.6);
-    transition: ease-in-out 600ms;
-}
-
-//menu 4 page 4
+//menu 4
 
 .menu_note4 {
-    display: flex;
-    flex-flow: column;
-    width: 600px;
+    @include display;
     height: 1000px;
-    margin: 30px;
     box-shadow: $box-shadow;
-    font-size: 1rem;
-    border-radius: 5px;
     font-family: 'Kaushan Script', cursive;
     h2 {
         font-size: 40px;

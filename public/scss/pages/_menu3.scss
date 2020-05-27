@@ -1,52 +1,9 @@
-// menu 3 index
-
-.menu3 {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 335px;
-    height: 485px;
-    margin: 30px;
-    box-shadow: $box-shadow;
-    text-align: center;
-    font-size: 1.4rem;
-    border-radius: 5px;
-    background-color: $background-menu3;
-    font-family: 'Dancing Script', cursive;
-    .plat3 {
-        padding-left: 3px;
-    }
-}
-.menu3>p,
-.menu3 i {
-    transform: scale(1);
-    opacity: 1;
-    transition-duration: 600ms;
-    text-decoration: none;
-    background: $title-menu3;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-}
-.menu3:hover>p,
-.menu3:hover i {
-    opacity: 0.5;
-    transform: scale(1.6);
-    transition: ease-in-out 600ms;
-}
-
-// menu 3 page 3
+// menu 3
 
 .menu_note3 {
-    display: flex;
-    flex-flow: column;
-    width: 600px;
+    @include display;
     height: 1150px;
-    margin: 30px;
     box-shadow: $box-shadow;
-    font-size: 1rem;
-    border-radius: 5px;
     background-color: $background-menu3;
     font-family: 'Dancing Script', cursive;
     h2 {

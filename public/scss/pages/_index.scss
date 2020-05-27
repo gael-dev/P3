@@ -1,0 +1,80 @@
+// menu 1 index
+
+.menu1 {
+    @include menu-box;
+    box-shadow: $box-shadow;
+    background-color: $background-menu1;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+.menu1>p,
+.menu1 i {
+    @include transition;
+    color: $title-menu1; 
+}
+.menu1:hover>p,
+.menu1:hover i {
+    @include transition-hover;
+}
+// Menu 2 index
+
+.menu2 {
+    @include menu-box;
+    box-shadow: $box-shadow;
+    background-color: $background-menu2;
+    font-family: 'Redressed', cursive;
+}
+.menu2>p,
+.menu2 i {
+    @include transition;
+    background: $title-menu2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.menu2:hover>p,
+.menu2:hover i {
+    @include transition-hover
+}
+// menu 3 index
+
+.menu3 {
+    @include menu-box;
+    box-shadow: $box-shadow;
+    background-color: $background-menu3;
+    font-family: 'Dancing Script', cursive;
+    .plat3 {
+        padding-left: 3px;
+    }
+}
+.menu3>p,
+.menu3 i {
+    @include transition;
+    background: $title-menu3;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.menu3:hover>p,
+.menu3:hover i {
+    @include transition-hover;
+}
+// menu 4 index
+
+.menu4 {
+    @include menu-box;
+    box-shadow: $box-shadow;
+    font-family: 'Kaushan Script', cursive;
+}
+.menu4>p,
+.menu4 i {
+    @include transition;
+    background: $title-menu4;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.menu4:hover>p,
+.menu4:hover i {
+    @include transition-hover;
+}
+

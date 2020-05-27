@@ -1,46 +1,9 @@
-// menu 1 index
-
-.menu1 {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 335px;
-    height: 485px;
-    margin: 30px;
-    box-shadow: $box-shadow;
-    text-align: center;
-    font-size: 1.5rem;
-    border-radius: 5px;
-    background-color: $background-menu1;
-    font-family: 'Ma Shan Zheng', cursive;
-}
-.menu1>p,
-.menu1 i {
-    transform: scale(1);
-    opacity: 1;
-    transition-duration: 600ms;
-    text-decoration: none;
-    color: $title-menu1; 
-}
-.menu1:hover>p,
-.menu1:hover i {
-    opacity: 0.5;
-    transform: scale(1.6);
-    transition: ease-in-out 600ms;
-}
-
-// menu 1 page 1
+// menu 1 
 
 
 .menu_note {
-    display: flex;
-    flex-flow: column;
-    width: 600px;
-    margin: 30px;
+    @include display;
     box-shadow: $box-shadow;
-    font-size: 1.2rem;
-    border-radius: 5px;
     background-color: $background-menu1;
     font-family: 'Ma Shan Zheng', cursive;
     .noteM {

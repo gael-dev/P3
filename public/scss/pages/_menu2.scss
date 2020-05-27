@@ -1,49 +1,9 @@
-// Menu 2 index
-
-.menu2 {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 335px;
-    height: 485px;
-    margin: 30px;
-    box-shadow: $box-shadow;
-    text-align: center;
-    font-size: 1.4rem;
-    border-radius: 5px;
-    background-color: $background-menu2;
-    font-family: 'Redressed', cursive;
-}
-.menu2>p,
-.menu2 i {
-    transform: scale(1);
-    opacity: 1;
-    transition-duration: 600ms;
-    text-decoration: none;
-    background: $title-menu2;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-}
-.menu2:hover>p,
-.menu2:hover i {
-    opacity: 0.5;
-    transform: scale(1.6);
-    transition: ease-in-out 600ms;
-}
-
-// menu 2 page 2
+// menu 2
 
 .menu_note2 {
-    display: flex;
-    flex-flow: column;
-    width: 600px;
+    @include display;
     height: 1000px;
-    margin: 30px;
     box-shadow: $box-shadow;
-    font-size: 1rem;
-    border-radius: 5px;
     background-color: $background-menu2;
     font-family: 'Redressed', cursive;
     .plats_final {

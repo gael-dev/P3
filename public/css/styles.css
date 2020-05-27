@@ -254,10 +254,10 @@ img {
   width: 335px;
   height: 485px;
   margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
   text-align: center;
   font-size: 1.5rem;
   border-radius: 5px;
+  box-shadow: 0 0 10px 5px #ededed;
   background-color: #fdc2cb;
   font-family: "Ma Shan Zheng", cursive;
 }
@@ -278,28 +278,6 @@ img {
   transition: ease-in-out 600ms;
 }
 
-.menu_note {
-  display: flex;
-  flex-flow: column;
-  width: 600px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  background-color: #fdc2cb;
-  font-family: "Ma Shan Zheng", cursive;
-}
-.menu_note .noteM {
-  margin-top: 50px;
-  background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 3rem;
-}
-.menu_note .plats_final {
-  margin: auto;
-}
-
 .menu2 {
   display: flex;
   flex-flow: column;
@@ -308,10 +286,10 @@ img {
   width: 335px;
   height: 485px;
   margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   border-radius: 5px;
+  box-shadow: 0 0 10px 5px #ededed;
   background-color: rgba(236, 205, 236, 0.384);
   font-family: "Redressed", cursive;
 }
@@ -335,15 +313,109 @@ img {
   transition: ease-in-out 600ms;
 }
 
+.menu3 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 485px;
+  margin: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px #ededed;
+  background-color: rgba(219, 219, 219, 0.39);
+  font-family: "Dancing Script", cursive;
+}
+.menu3 .plat3 {
+  padding-left: 3px;
+}
+
+.menu3 > p,
+.menu3 i {
+  transform: scale(1);
+  opacity: 1;
+  transition-duration: 600ms;
+  text-decoration: none;
+  background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.menu3:hover > p,
+.menu3:hover i {
+  opacity: 0.5;
+  transform: scale(1.6);
+  transition: ease-in-out 600ms;
+}
+
+.menu4 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 485px;
+  margin: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px #ededed;
+  font-family: "Kaushan Script", cursive;
+}
+
+.menu4 > p,
+.menu4 i {
+  transform: scale(1);
+  opacity: 1;
+  transition-duration: 600ms;
+  text-decoration: none;
+  background: linear-gradient(to bottom right, #099105, #b7f8b1af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.menu4:hover > p,
+.menu4:hover i {
+  opacity: 0.5;
+  transform: scale(1.6);
+  transition: ease-in-out 600ms;
+}
+
+.menu_note {
+  display: flex;
+  flex-flow: column;
+  width: 600px;
+  margin: 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px #ededed;
+  background-color: #fdc2cb;
+  font-family: "Ma Shan Zheng", cursive;
+}
+.menu_note .noteM {
+  margin-top: 50px;
+  background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+}
+.menu_note .plats_final {
+  margin: auto;
+}
+
 .menu_note2 {
   display: flex;
   flex-flow: column;
   width: 600px;
-  height: 1000px;
   margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
   font-size: 1rem;
   border-radius: 5px;
+  height: 1000px;
+  box-shadow: 0 0 10px 5px #ededed;
   background-color: rgba(236, 205, 236, 0.384);
   font-family: "Redressed", cursive;
 }
@@ -374,53 +446,15 @@ img {
   flex-direction: row;
 }
 
-.menu3 {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  width: 335px;
-  height: 485px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  text-align: center;
-  font-size: 1.4rem;
-  border-radius: 5px;
-  background-color: rgba(219, 219, 219, 0.39);
-  font-family: "Dancing Script", cursive;
-}
-.menu3 .plat3 {
-  padding-left: 3px;
-}
-
-.menu3 > p,
-.menu3 i {
-  transform: scale(1);
-  opacity: 1;
-  transition-duration: 600ms;
-  text-decoration: none;
-  background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-.menu3:hover > p,
-.menu3:hover i {
-  opacity: 0.5;
-  transform: scale(1.6);
-  transition: ease-in-out 600ms;
-}
-
 .menu_note3 {
   display: flex;
   flex-flow: column;
   width: 600px;
-  height: 1150px;
   margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
   font-size: 1rem;
   border-radius: 5px;
+  height: 1150px;
+  box-shadow: 0 0 10px 5px #ededed;
   background-color: rgba(219, 219, 219, 0.39);
   font-family: "Dancing Script", cursive;
 }
@@ -439,49 +473,15 @@ img {
   font-size: 14px;
 }
 
-.menu4 {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  width: 335px;
-  height: 485px;
-  margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
-  text-align: center;
-  font-size: 1.5rem;
-  border-radius: 5px;
-  font-family: "Kaushan Script", cursive;
-}
-
-.menu4 > p,
-.menu4 i {
-  transform: scale(1);
-  opacity: 1;
-  transition-duration: 600ms;
-  text-decoration: none;
-  background: linear-gradient(to bottom right, #099105, #b7f8b1af);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-.menu4:hover > p,
-.menu4:hover i {
-  opacity: 0.5;
-  transform: scale(1.6);
-  transition: ease-in-out 600ms;
-}
-
 .menu_note4 {
   display: flex;
   flex-flow: column;
   width: 600px;
-  height: 1000px;
   margin: 30px;
-  box-shadow: 0 0 10px 5px #ededed;
   font-size: 1rem;
   border-radius: 5px;
+  height: 1000px;
+  box-shadow: 0 0 10px 5px #ededed;
   font-family: "Kaushan Script", cursive;
 }
 .menu_note4 h2 {
