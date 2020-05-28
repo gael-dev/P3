@@ -51,9 +51,6 @@ a:link {
 
 img {
     width: 28%;
-    height: 30%;
-    display: flex;
-    flex-direction: row;
     margin: auto;
 }
 
@@ -76,7 +73,7 @@ img {
             width: 100%;
             transform: scaleX(0);
             height: 3px;
-            bottom: 0;
+            bottom: 0px;
             left: 0;
             background-color: currentColor;
             transform-origin: bottom right;
@@ -91,7 +88,7 @@ img {
 }
 .orange, .violet, .violet2, .bleu, .bleu_clair, .bleu_clair2 {
    
-    .mouv2 {
+    h3 {
          display: inline-flex;
          position: relative;
          &::before {
@@ -100,7 +97,7 @@ img {
              width: 100%;
              transform: scaleX(0);
              height: 3px;
-             bottom: 0;
+             bottom: 0px;
              left: 0;
              background-color: currentColor;
              transform-origin: bottom right;

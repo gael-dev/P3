@@ -27,6 +27,12 @@
 .violet2 {
     filter: invert(20%) sepia(80%) saturate(7175%) hue-rotate(257deg) brightness(98%) contrast(93%);
 }
+.mouv2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
 }
 .plats_final3 {
     display: flex;

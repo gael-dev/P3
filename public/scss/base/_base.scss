@@ -34,6 +34,10 @@ span {
     margin-right: 60px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
+    .prix {
+        margin-top: 16px;
+        font-weight: bold;
+    }
 }
 .plats_final {
     text-align: justify;
