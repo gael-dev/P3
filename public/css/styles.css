@@ -146,14 +146,6 @@ span {
   font-weight: bold;
 }
 
-input {
-  display: flex;
-  width: 100%;
-  border: none;
-  background-color: rgba(236, 236, 236, 0.685);
-  margin-top: 0px;
-}
-
 .note {
   font-size: 25px;
   background: linear-gradient(to bottom right, #f04a5e, #f78f6a);
@@ -215,7 +207,6 @@ img {
   height: 3px;
   bottom: 0px;
   left: 0;
-  background-color: currentColor;
   transform-origin: bottom right;
   transition: transform 250ms ease-out;
 }
@@ -237,7 +228,6 @@ img {
   height: 3px;
   bottom: 0px;
   left: 0;
-  background-color: currentColor;
   transform-origin: bottom right;
   transition: transform 250ms ease-out;
 }
@@ -277,6 +267,9 @@ img {
   opacity: 0.5;
   transform: scale(1.6);
   transition: ease-in-out 600ms;
+  width: 100%;
+  width: 100%;
+  padding: 10px;
 }
 
 .menu2 {
@@ -312,6 +305,7 @@ img {
   opacity: 0.5;
   transform: scale(1.6);
   transition: ease-in-out 600ms;
+  width: 100%;
 }
 
 .menu3 {
@@ -350,6 +344,7 @@ img {
   opacity: 0.5;
   transform: scale(1.6);
   transition: ease-in-out 600ms;
+  width: 100%;
 }
 
 .menu4 {
@@ -384,6 +379,7 @@ img {
   opacity: 0.5;
   transform: scale(1.6);
   transition: ease-in-out 600ms;
+  width: 100%;
 }
 
 .menu_note {

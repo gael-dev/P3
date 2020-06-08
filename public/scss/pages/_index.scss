@@ -14,6 +14,8 @@
 .menu1:hover>p,
 .menu1:hover i {
     @include transition-hover;
+    width: 100%;
+    padding: 10px;
 }
 // Menu 2 index
 

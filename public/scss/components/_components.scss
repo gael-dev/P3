@@ -1,12 +1,4 @@
-// barre de recherche
 
-input {
-    display: flex;
-    width: 100%;
-    border: none;
-    background-color: $input;
-    margin-top: 0px;
-}
 
 // icone Note
 .note {
@@ -75,7 +67,7 @@ img {
             height: 3px;
             bottom: 0px;
             left: 0;
-            background-color: currentColor;
+            // background-color: currentColor;
             transform-origin: bottom right;
             transition: transform 250ms ease-out;
         }
@@ -99,7 +91,7 @@ img {
              height: 3px;
              bottom: 0px;
              left: 0;
-             background-color: currentColor;
+            //  background-color: currentColor;
              transform-origin: bottom right;
              transition: transform 250ms ease-out;
          }
