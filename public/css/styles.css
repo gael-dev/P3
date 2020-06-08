@@ -51,11 +51,11 @@
 }
 
 .title {
-  background-color: #098868;
+  background-color: #579c87;
 }
 
 h1 {
-  color: #ffd000;
+  color: #fdcb46;
   margin: 0px;
   padding: 20px;
   font-size: 60px;
@@ -77,10 +77,10 @@ footer {
   flex-direction: row;
   position: sticky;
   bottom: 0px;
-  background-color: #098868;
+  background-color: #579c87;
   padding: 20px;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 46px;
 }
 
 h3 {
@@ -108,12 +108,12 @@ section {
 
 span {
   font-size: 30px;
-  color: #ffd000;
+  color: #fdcb46;
 }
 
 .fas {
   font-size: 10px;
-  color: #ffd000;
+  color: #fdcb46;
 }
 
 .plats {
@@ -169,7 +169,7 @@ input {
 }
 
 .btn {
-  background-color: #098868;
+  background-color: #579c87;
   font-size: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -179,12 +179,12 @@ input {
 }
 
 .un > a {
-  color: #ffd000;
+  color: #fdcb46;
   font-size: 35px;
 }
 
 .deux > a {
-  color: #ffd000;
+  color: #fdcb46;
   font-size: 35px;
 }
 
@@ -259,7 +259,7 @@ img {
   font-size: 1.5rem;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px #ededed;
-  background-color: #fdc2cb;
+  background-color: #fcdfdb;
   font-family: "Ma Shan Zheng", cursive;
 }
 
@@ -291,7 +291,7 @@ img {
   font-size: 1.5rem;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px #ededed;
-  background-color: rgba(236, 205, 236, 0.384);
+  background-color: #fff5fe;
   font-family: "Redressed", cursive;
 }
 
@@ -326,7 +326,7 @@ img {
   font-size: 1.5rem;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px #ededed;
-  background-color: rgba(219, 219, 219, 0.39);
+  background-color: #f9f9f9;
   font-family: "Dancing Script", cursive;
 }
 .menu3 .plat3 {
@@ -394,7 +394,7 @@ img {
   font-size: 1rem;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px #ededed;
-  background-color: #fdc2cb;
+  background-color: #fcdfdb;
   font-family: "Ma Shan Zheng", cursive;
 }
 .menu_note .noteM {
@@ -417,7 +417,7 @@ img {
   border-radius: 5px;
   height: 1000px;
   box-shadow: 0 0 10px 5px #ededed;
-  background-color: rgba(236, 205, 236, 0.384);
+  background-color: #fff5fe;
   font-family: "Redressed", cursive;
 }
 .menu_note2 .plats_final {
@@ -462,7 +462,7 @@ img {
   border-radius: 5px;
   height: 1150px;
   box-shadow: 0 0 10px 5px #ededed;
-  background-color: rgba(219, 219, 219, 0.39);
+  background-color: #f9f9f9;
   font-family: "Dancing Script", cursive;
 }
 .menu_note3 h2 {
@@ -533,7 +533,7 @@ img {
   text-align: center;
   font-size: 1.5rem;
   border-radius: 5px;
-  background-color: rgba(219, 219, 219, 0.39);
+  background-color: #f9f9f9;
   font-family: "Ma Shan Zheng", cursive;
 }
 
@@ -583,6 +583,8 @@ img {
 .menu3,
 .menu4 {
     margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .menu1 p,
 .menu2 p,

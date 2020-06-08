@@ -22,9 +22,10 @@
     box-shadow: $box-shadow;
     background-color: $background-menu2;
     font-family: 'Redressed', cursive;
+   
 }
 .menu2>p,
-.menu2 i {
+.menu2 i  {
     @include transition;
     background: $title-menu2;
     -webkit-background-clip: text;
@@ -32,9 +33,10 @@
     font-weight: bold;
 }
 .menu2:hover>p,
-.menu2:hover i {
+.menu2:hover i  {
     @include transition-hover
 }
+
 // menu 3 index
 
 .menu3 {
