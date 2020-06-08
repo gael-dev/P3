@@ -207,6 +207,7 @@ img {
   height: 3px;
   bottom: 0px;
   left: 0;
+  background-color: currentColor;
   transform-origin: bottom right;
   transition: transform 250ms ease-out;
 }
@@ -228,6 +229,7 @@ img {
   height: 3px;
   bottom: 0px;
   left: 0;
+  background-color: currentColor;
   transform-origin: bottom right;
   transition: transform 250ms ease-out;
 }
