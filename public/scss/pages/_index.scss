@@ -24,16 +24,27 @@
     box-shadow: $box-shadow;
     background-color: $background-menu2;
     font-family: 'Redressed', cursive;
-   
 }
-.menu2>p,
+.menu2>P,
 .menu2 i  {
     @include transition;
-    background: $title-menu2;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+    
 }
+
+.plat2 {
+        background: $title-menu2;
+}
+.ora {
+    @include transition;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    background-color: rgb(199, 116, 18);
+}
+
 .menu2:hover>p,
 .menu2:hover i  {
     @include transition-hover
@@ -53,7 +64,6 @@
 .menu3>p,
 .menu3 i {
     @include transition;
-    background: $title-menu3;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -62,6 +72,19 @@
 .menu3:hover i {
     @include transition-hover;
 }
+
+.plat3 {
+    background: $title-menu3;
+}
+
+.blue {
+    @include transition;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    background-color: rgb(8, 135, 251);
+}
+
 // menu 4 index
 
 .menu4 {
@@ -72,7 +95,6 @@
 .menu4>p,
 .menu4 i {
     @include transition;
-    background: $title-menu4;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -82,3 +104,14 @@
     @include transition-hover;
 }
 
+.plat4 {
+    background: $title-menu4;
+}
+
+.green {
+    @include transition;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    background-color: rgb(114, 191, 86);
+}

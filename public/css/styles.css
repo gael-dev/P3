@@ -290,16 +290,30 @@ img {
   font-family: "Redressed", cursive;
 }
 
-.menu2 > p,
+.menu2 > P,
 .menu2 i {
   transform: scale(1);
   opacity: 1;
   transition-duration: 600ms;
   text-decoration: none;
-  background: linear-gradient(to bottom right, #b95604, #6f18faaf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+}
+
+.plat2 {
+  background: linear-gradient(to bottom right, #b95604, #6f18faaf);
+}
+
+.ora {
+  transform: scale(1);
+  opacity: 1;
+  transition-duration: 600ms;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  background-color: #c77412;
 }
 
 .menu2:hover > p,
@@ -335,7 +349,6 @@ img {
   opacity: 1;
   transition-duration: 600ms;
   text-decoration: none;
-  background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -347,6 +360,21 @@ img {
   transform: scale(1.6);
   transition: ease-in-out 600ms;
   width: 100%;
+}
+
+.plat3 {
+  background: linear-gradient(to bottom right, #3836e2, #0c84f5af);
+}
+
+.blue {
+  transform: scale(1);
+  opacity: 1;
+  transition-duration: 600ms;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  background-color: #0887fb;
 }
 
 .menu4 {
@@ -370,7 +398,6 @@ img {
   opacity: 1;
   transition-duration: 600ms;
   text-decoration: none;
-  background: linear-gradient(to bottom right, #099105, #b7f8b1af);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -382,6 +409,21 @@ img {
   transform: scale(1.6);
   transition: ease-in-out 600ms;
   width: 100%;
+}
+
+.plat4 {
+  background: linear-gradient(to bottom right, #099105, #b7f8b1af);
+}
+
+.green {
+  transform: scale(1);
+  opacity: 1;
+  transition-duration: 600ms;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  background-color: #72bf56;
 }
 
 .menu_note {
